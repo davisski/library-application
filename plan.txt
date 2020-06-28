@@ -1,0 +1,34 @@
+Create: 
+
+Library Class -
+
+Properties: 
+
+    @prop books
+    @prop patrons
+
+Methods: 
+
+    @method addBook()
+    @method addPatron()
+
+Book Class - 
+
+Properties: 
+
+    @prop title
+    @prop author
+    @prop ISBN
+
+Patron Class - 
+
+Properties: 
+
+    @prop name
+    @prop email
+    @prop currentBook
+
+Methods: 
+
+    @method checkOut()
+    @method returnBook()
