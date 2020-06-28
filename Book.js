@@ -11,7 +11,7 @@ class Book {
     this._out = out;
     if (this._out) {
       const newDueDate = new Date();
-      newDueDate.setDate(newDueDate.getDate() + 14);
+      newDueDate.setDate(newDueDate.getDate() - 14);
       book.dueDate = newDueDate;
     } else {
       this.dueDate = null;
