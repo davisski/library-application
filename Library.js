@@ -1,6 +1,6 @@
 class Library {
-  constructor(books, patrons) {
-    this.books = books;
-    this.patrons = patrons;
+  constructor() {
+    this.books = [];
+    this.patrons = [];
   }
 }
